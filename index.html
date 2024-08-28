@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website dengan Interaktivitas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Website Kami</h1>
+    </header>
+    
+    <main>
+        <section id="interactive-section">
+            <h2>Formulir Kontak</h2>
+            <form id="contact-form">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+            <p id="form-response"></p>
+        </section>
+
+        <section id="dynamic-content">
+            <h2>Informasi Pengguna</h2>
+            <button id="load-user-info">Load User Info</button>
+            <div id="user-info"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Website Kami</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
